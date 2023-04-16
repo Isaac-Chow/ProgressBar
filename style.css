@@ -1,0 +1,64 @@
+* {
+    font-family: 'VT323', monospace;
+}
+
+body {
+    background-color: rgb(245, 245, 107);
+}
+
+#percentage {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 300px;
+}
+
+#bar {
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+#progress {
+    height: 100%;
+    border-radius: 25px;
+    background-color: grey;
+    width: 10%;
+}
+
+#colors {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#colors button {
+    margin: 10px;
+    width: 9%;
+    height: 60%;
+    font-size: 1.2em
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+#start {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+}
